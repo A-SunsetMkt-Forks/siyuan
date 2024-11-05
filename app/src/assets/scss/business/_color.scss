@@ -1,0 +1,25 @@
+.color__square {
+  height: 26px;
+  width: 26px;
+  margin: 4px;
+  border: 0;
+  transition: var(--b3-transition);
+  box-shadow: 0 0 0 1px var(--b3-theme-surface-lighter) inset;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--b3-theme-background);
+  padding: 0;
+  border-radius: var(--b3-border-radius);
+  font-size: 16px;
+  font-weight: 500;
+
+  &--list {
+    margin: 0 8px 0 0;
+  }
+
+  &:hover:not(.color__square--list) {
+    box-shadow: 0 0 0 1px var(--b3-theme-surface-lighter) inset, 0 0 0 4px var(--b3-theme-background);
+  }
+}

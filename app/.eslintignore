@@ -1,6 +1,6 @@
 build
-dist
-electron
 node_modules
-public
-*.js
+src/asset/pdf
+src/types/dist
+stage
+appearance
